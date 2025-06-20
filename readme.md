@@ -62,20 +62,18 @@ Para ejecutar el simulador y generar la gráfica, sigue estos pasos:
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
-    cd tu-repositorio
+    git clone https://github.com/Josephurrego/Simulador_Hardy_Weinberg_con_Mutacion.git
+    cd Simulador_Hardy_Weinberg_con_Mutacion
     ```
 
 2.  **Instalar dependencias:**
-    El proyecto requiere `matplotlib` para la visualización. `numpy` también puede ser utilizado para facilitar el manejo de arreglos, aunque los métodos numéricos centrales estén implementados manualmente.
+    El proyecto requiere `matplotlib` para la visualización. `numpy`utilizado para facilitar el manejo de arreglos, aunque los métodos numéricos centrales estén implementados manualmente.
     ```bash
     pip install matplotlib numpy
     ```
 
 3.  **Ejecutar el script principal:**
-    ```bash
-    python simulador_alelos.py
-    ```
+    (Falta Completar)
 
 El script realizará los siguientes pasos:
 1.  Definirá las tasas de mutación y las frecuencias alélicas iniciales.
@@ -85,4 +83,4 @@ El script realizará los siguientes pasos:
 
 ## ✅ Resultado Esperado
 
-El script producirá una imagen (`simulador_de_alelos.png`) que visualiza la evolución de las frecuencias de los cuatro alelos a lo largo de 1000 generaciones. La gráfica mostrará cómo cada frecuencia converge asintóticamente hacia el valor de equilibrio calculado, validando la correcta implementación de los métodos numéricos y del modelo genético.
+El script a traves de `matplotlib` abrirá una ventana que visualiza la evolución de las frecuencias de los cuatro alelos a lo largo de `n` generaciones. La gráfica mostrará cómo cada frecuencia converge asintóticamente hacia el valor de equilibrio calculado, validando la correcta implementación de los métodos numéricos y del modelo genético.
